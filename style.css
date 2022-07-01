@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(2, 159, 2);
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"
+}
+
+  li {
+    list-style-type: none;
+    float: left;
+  }
+
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+}
+
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#navlogo {
+      height: 40px; 
+    }
+
+#bg1 {
+    background-image: url('hero_new.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height:700px; 
+    padding-top:80px;
+    }
+
+.flexbox-container{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+}
+
+#bg2 {
+    background-color: black;
+    }
+
+h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: 100px;
+    line-height: 120px;
+    text-align: center;
+    font-style: italic;
+}
+
+.p1{
+    color: white;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+
+
+}
+
+#thirst {
+    background-image: url(thirst_for_yours.png);
+    padding-top: 1470px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flexbox-container2{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bg3 {
+    background-color: white;
+    }
+
+.flexitem1{
+    font-family: Arial, Helvetica;
+    line-height: 25px;
+    letter-spacing: .5px;
+
+}
+
+.flex_ht{
+    font-weight: bolder;
+    color: rgb(2, 159, 2);
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+}
+
+.flex_header{
+    color: black;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.flexbox-container3{
+    background-color: rgb(2, 159, 2);
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#bottle{
+    height: max-content;
+}
+
+.flexitem2_2{
+    color: white;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    line-height: 90%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#webcount {
+    font-size: xx-large;
+    
+}
+
+/* Styles for website counter container */
+.website-counter {
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+  margin-top: 20px;
+  background-color: rgb(2, 159, 2);
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}
+
+#lemon {
+    background-image: url(lemon_lime.png);
+    padding-top: 200px;
+    background-repeat: no-repeat;
+}
+
+.flexbox-container4{
+    background-image: url('paper_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height:700px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist{
+    flex-direction: column;
+}
+
+#playlist_button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(2, 159, 2);
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 760px){
+    .nav_links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: rgb(2, 159, 2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+}
+
